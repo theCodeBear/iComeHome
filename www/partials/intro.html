@@ -1,3 +1,13 @@
-In the intro!
+<p>In the intro!</p>
 
-{{ working }}
+<p>{{ working }}</p>
+
+<button type="button" ng-click="getAllUsers()">Show Users</button>
+
+
+<form name="createUser" method="post" action="/users">
+  <input type="text" name="name">
+  <input type="submit" value="Create User">
+</form>
+
+<div ng-bind="users"></div>

@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 
 var userSchema = mongoose.Schema({
   name: String,
-  createdAt: { type: Date, default: Date.now, required: true }.
+  createdAt: { type: Date, default: Date.now, required: true },
   facebook_id: String,
   facebook_access_token: String,
   contacts: [String],
